@@ -47,9 +47,6 @@ This will open the website on `localhost:3000` and turn on the bot if everything
 
 Read [CONTRIBUTING.md](CONTRIBUTING.md).
 
-**Documentation for each technology** Discord: https://discord.js.org/#/docs/discord.js/main/general/welcome Svelte:
-https://svelte.dev/docs SvelteKit: https://kit.svelte.dev/docs
-
 ## Can I use this?
 
 Yes, this project is licensed under the GPL v3 License, meaning any public distribution must be open source. Though, it
