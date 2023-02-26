@@ -1,0 +1,15 @@
+{
+    "token": "enter a bot token",
+    "client": "enter client id",
+    "developer": "enter developer id",
+    "admin": "enter admin role",
+    "DM": "enter dungeon master role",
+    "lab": "enter laboratory channel id",
+    "guild": "enter guild id",
+    "db": {
+        "username": "enter postgres username",
+        "password": "enter postgres password",
+        "host": "enter postgres host",
+        "name": "enter postgres table name"
+    }
+}
