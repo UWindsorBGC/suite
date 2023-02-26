@@ -1,3 +1,12 @@
+<!--
+    Last Edited by: Morose#6189
+    Date: February 26, 2023.
+-->
+<script>
+    export let data;
+    const { execs, hosts } = data;
+</script>
+
 <section id="mission">
     <h1>Our Mission</h1>
     <!-- Always wrap large text. -->
@@ -31,8 +40,17 @@
         our constitution. Members may have more than one role.
     </p>
     <h2>Executive Body</h2>
-
+    {#each execs as exec}
+        <div class="person">
+            <h5>{exec.name} <br /> <sub>{exec.role}</sub></h5>
+        </div>
+    {/each}
     <h2>Hosts</h2>
+    {#each hosts as host}
+        <div class="person">
+            <h5>{host.name} <br /> <sub>{host.role}</sub></h5>
+        </div>
+    {/each}
 </section>
 
 <style>
@@ -58,5 +76,10 @@
 
     #team h1 {
         text-align: center;
+    }
+
+    .person {
+        display: inline-block;
+        margin-right: 2rem;
     }
 </style>

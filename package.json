@@ -20,7 +20,8 @@
 		"ffmpeg-static": "^5.0.0",
 		"sodium": "^3.0.0",
 		"ytdl-core": "^4.11.0",
-		"pg": "^8.9.0"
+		"pg": "^8.9.0",
+		"prettier": "^2.8.0"
 	},
 	"type": "module"
 }

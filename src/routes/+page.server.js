@@ -18,7 +18,7 @@ export const load = async () => {
 
         let data = await res.json();
 
-        // Taking API data and formatting it in backend.
+        // Taking API data and sorting it by the closest event happening.
         // TODO: Change this to merge sort.
         for (let i = 0; i < data.length; i++) {
             for (let j = 0; j < data.length - i - 1; j++) {
